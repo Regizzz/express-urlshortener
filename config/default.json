@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://supahotfire:stepbystep89@cluster0.dkltf.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "baseURL": "http://localhost:5000"
+}

@@ -1,7 +1,10 @@
 const express = require('express');
 const { connect } = require('mongoose');
+const connectDB = require('./config/db');
 
 const app = express();
+
+connectDB();
 
 app.use(express.json({ extended: false }));
 
